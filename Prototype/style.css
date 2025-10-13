@@ -1,9 +1,9 @@
 :root {
   --primary-color: #eac74d;
   --secondary-color: #fff8dc;
-  --text-color: #222;
-  --border-color: #ddd;
-  --accent-color: #b8860b;
+  --text-color: #000000;
+  --border-color: hsl(0, 0%, 87%);
+  --accent-color: hsl(239, 96%, 50%);
   --shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 * {
@@ -12,7 +12,7 @@
   padding: 0;
 }
 body {
-  font-family: "Segoe UI", sans-serif;
+  font-family: Arial, Helvetica, sans-serif ;
   background-color: #fff;
   color: var(--text-color);
   line-height: 1.6;
