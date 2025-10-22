@@ -6,11 +6,8 @@
 
 body {
   padding: 0;
-<<<<<<< HEAD
    margin: 0;
-=======
   margin: 0;
->>>>>>> 4bb67c5f4ba8d3e35cea3f4fbd1b1fec9b14d9f7
   font-family: Arial, Helvetica, sans-serif ;
   background-color: white; 
 }
@@ -21,12 +18,7 @@ body {
   margin: auto; 
   background-color: white;
   border-radius: 20px;
-  padding: 10px;
-<<<<<<< HEAD
- 
-=======
->>>>>>> 4bb67c5f4ba8d3e35cea3f4fbd1b1fec9b14d9f7
-}
+  padding: 10px;}
 
 header {
   display: flex;
@@ -54,7 +46,6 @@ header nav ul {
   list-style: none;
   margin: 0; 
   padding: 0;
-<<<<<<< HEAD
   gap: 30px; 
 }
 
@@ -63,18 +54,13 @@ header img {
   width: 70px;
   border-radius: 30px;
   margin-left: 18px; 
-  
- 
-=======
   gap: 90px; 
 }
 
 header img {
   height: 100px;
   width: 100px;
-  border-radius: 40px; 
->>>>>>> 4bb67c5f4ba8d3e35cea3f4fbd1b1fec9b14d9f7
-}
+  border-radius: 40px }
 
 
 section {
@@ -134,7 +120,6 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-<<<<<<< HEAD
 }
 @media screen and (min-width: 390px) {
     header img {
@@ -142,6 +127,3 @@ footer a:hover {
         height: 90px;
     }
 }
-=======
-}
->>>>>>> 4bb67c5f4ba8d3e35cea3f4fbd1b1fec9b14d9f7
