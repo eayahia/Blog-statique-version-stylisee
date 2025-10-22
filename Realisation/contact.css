@@ -21,25 +21,31 @@ body {
  color : white;
  padding : 20px ;
  border-radius: 20px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
 
 
 }
+
 .header a {
   color : white;
   text-decoration-line: none;
   font-size: larger;
 }
 .header nav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+display: flex;
   font-weight: bold;
   list-style: none;
-<<<<<<< HEAD
-  margin-right : 30px;
-=======
-  margin-right : 10px;
->>>>>>> 4bb67c5f4ba8d3e35cea3f4fbd1b1fec9b14d9f7
+  margin: 0; 
+  padding: 0;
+  gap: 30px; 
+}
+header img {
+  height: 70px;
+  width: 70px;
+  border-radius: 30px;
+  margin-left: 18px; 
 }
 .header a:hover {
     opacity: 0.8;
@@ -136,4 +142,9 @@ button[type="submit"]:active {
  color: white;
  text-align: center;
 }
-
+@media screen and (min-width: 390px) {
+    header img {
+        width: 90px;
+        height: 90px;
+    }
+}
