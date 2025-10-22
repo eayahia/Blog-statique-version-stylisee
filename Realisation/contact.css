@@ -35,7 +35,11 @@ body {
   align-items: center;
   font-weight: bold;
   list-style: none;
+<<<<<<< HEAD
   margin-right : 30px;
+=======
+  margin-right : 10px;
+>>>>>>> 4bb67c5f4ba8d3e35cea3f4fbd1b1fec9b14d9f7
 }
 .header a:hover {
     opacity: 0.8;
