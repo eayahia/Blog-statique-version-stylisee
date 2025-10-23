@@ -16,6 +16,7 @@ body {
  padding: 10px;
 }
 .header {
+
   background-color: var(--main-color);
  color : white;
  padding : 20px ;
@@ -23,6 +24,7 @@ body {
  display: flex;
  justify-content: space-between;
  align-items: center;
+ 
 
 
 }
@@ -32,19 +34,19 @@ body {
   font-size: larger;
 }
 header nav ul {
-  display: flex;
+ display: flex;
   font-weight: bold;
   list-style: none;
   margin: 0; 
   padding: 0;
-  gap: 30px; 
+  gap: 15px;  
 }
 header img {
   height: 70px;
   width: 70px;
   border-radius: 30px;
   margin-left: 18px; 
-  gap: 90px; 
+
 }
 
 .header a:hover {
@@ -89,6 +91,28 @@ p {
         width: 90px;
         height: 90px;
     }
+         .header nav ul {
+display: flex;
+  font-weight: bold;
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+  gap: 15px; 
+} 
 }
-
+@media screen and (max-width: 330px) {
+  header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+  }
+  .header nav ul {
+display: flex;
+  font-weight: bold;
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+  gap: 15px; 
+} 
+}
 
